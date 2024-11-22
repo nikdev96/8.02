@@ -37,3 +37,11 @@
 
 ![alt text](https://github.com/nikdev96/8.02/blob/main/screen%20shots/%2310.png)
 
+### Задание №4
+
+![alt text](https://github.com/nikdev96/8.02/blob/main/screen%20shots/%2311.png)
+
+![alt text](https://github.com/nikdev96/8.02/blob/main/screen%20shots/%2312.png)
+
+![alt text](https://github.com/nikdev96/8.02/blob/main/screen%20shots/%2313.png)
+
