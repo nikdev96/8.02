@@ -7,7 +7,7 @@
 
 ## Решение ДЗ
 
-Задание №1
+### Задание №1
 Скриншоты 
 ![alt text](https://github.com/nikdev96/8.02/blob/main/screen%20shots/%231.png) 
 
@@ -21,4 +21,12 @@
 
 
 [Лог файл](https://github.com/nikdev96/8.02/blob/main/log/%239.txt)
+
+
+### Задание №2
+Скриншот
+![alt text](https://github.com/nikdev96/8.02/blob/main/screen%20shots/%236.png)
+
+![alt text](https://github.com/nikdev96/8.02/blob/main/screen%20shots/%237.png)
+
 
