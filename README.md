@@ -7,6 +7,18 @@
 
 ## Решение ДЗ
 
+Задание №1
 Скриншоты 
 ![alt text](https://github.com/nikdev96/8.02/blob/main/screen%20shots/%231.png) 
+
+![alt text](https://github.com/nikdev96/8.02/blob/main/screen%20shots/%232.png) 
+
+![alt text](https://github.com/nikdev96/8.02/blob/main/screen%20shots/%233.png)
+
+![alt text](https://github.com/nikdev96/8.02/blob/main/screen%20shots/%234.png)
+
+![alt text](https://github.com/nikdev96/8.02/blob/main/screen%20shots/%235.png)
+
+Лог файл
+![alt text](https://github.com/nikdev96/8.02/blob/main/log/%239.txt)
 
