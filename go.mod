@@ -1,3 +1,3 @@
 module github.com/nikdev96/8.02
 
-go 1.23.3
+go 1.23
