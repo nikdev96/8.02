@@ -1,0 +1,76 @@
+Started by user seliverstov nik
+Running as SYSTEM
+Building in workspace /Users/nikita/.jenkins/workspace/Golang Project
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /Users/nikita/.jenkins/workspace/Golang Project/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/nikdev96/8.02 # timeout=10
+Fetching upstream changes from https://github.com/nikdev96/8.02
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.5 (Apple Git-154)'
+ > git fetch --tags --force --progress -- https://github.com/nikdev96/8.02 +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 0dc9d0825688b567f161339a095becb1703aec5d (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 0dc9d0825688b567f161339a095becb1703aec5d # timeout=10
+Commit message: "Fix Go version in go.mod"
+ > git rev-list --no-walk a9d1bb5de1da04d4b8e8f9551ce5cb20f50f17ca # timeout=10
+[Golang Project] $ /bin/sh -xe /var/folders/sv/_31gdmj55g7488bj_4y3sc_00000gn/T/jenkins1179575765926196869.sh
++ docker --version
+Docker version 27.2.0, build 3ab4256
+[Golang Project] $ /bin/sh -xe /var/folders/sv/_31gdmj55g7488bj_4y3sc_00000gn/T/jenkins67522632468100253.sh
++ export PATH=/usr/local/bin:/usr/local/bin:/opt/homebrew/bin:/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin
++ PATH=/usr/local/bin:/usr/local/bin:/opt/homebrew/bin:/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin
++ go test .
+ok  	github.com/nikdev96/8.02	(cached)
++ docker build .
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 387B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/golang:1.16
+#2 ...
+
+#3 [internal] load metadata for docker.io/library/alpine:latest
+#3 DONE 1.3s
+
+#2 [internal] load metadata for docker.io/library/golang:1.16
+#2 DONE 1.3s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 2B done
+#4 DONE 0.0s
+
+#5 [builder 1/4] FROM docker.io/library/golang:1.16@sha256:5f6a4662de3efc6d6bb812d02e9de3d8698eea16b8eb7281f03e6f3e8383018e
+#5 DONE 0.0s
+
+#6 [stage-1 1/3] FROM docker.io/library/alpine:latest@sha256:1e42bbe2508154c9126d48c2b8a75420c3544343bf86fd041fb7527e017a4b4a
+#6 DONE 0.0s
+
+#7 [stage-1 2/3] RUN apk -U add ca-certificates
+#7 CACHED
+
+#8 [internal] load build context
+#8 transferring context: 7.47kB done
+#8 DONE 0.0s
+
+#9 [builder 2/4] WORKDIR /go/src/github.com/netology-code/sdvps-materials
+#9 CACHED
+
+#10 [builder 3/4] COPY . ./
+#10 DONE 0.0s
+
+#11 [builder 4/4] RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix nocgo -o /app .
+#11 DONE 1.2s
+
+#12 [stage-1 3/3] COPY --from=builder /app /app
+#12 DONE 0.0s
+
+#13 exporting to image
+#13 exporting layers 0.0s done
+#13 writing image sha256:4c5ff8862d4bbe0bb7f6370dd6e814e915616473fb7ff9d40f6819f1a202d2e4 done
+#13 DONE 0.0s
+Finished: SUCCESS
